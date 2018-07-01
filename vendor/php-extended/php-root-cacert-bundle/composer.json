@@ -1,0 +1,36 @@
+{
+	"name" : "php-extended/php-root-cacert-bundle",
+	"description" : "A library to safely add the CA root certificates into your programmes ssl validations",
+	"type" : "library",
+	"homepage" : "https://gitlab.com/php-extended/php-root-cacert-bundle",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Anastaszor",
+			"homepage" : "https://gitlab.com/Anastaszor",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"issues" : "https://gitlab.com/php-extended/php-root-cacert-bundle/issues",
+		"source" : "https://gitlab.com/php-extended/php-root-cacert-bundle"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"PhpExtended\\RootCacert\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"keywords" : [
+		"php",
+		"CA",
+		"certification authority",
+		"root",
+		"certificate",
+		"validation",
+		"ssl",
+		"tls",
+		"curl"
+	]
+}

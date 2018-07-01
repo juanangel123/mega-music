@@ -1,0 +1,256 @@
+[
+    {
+        "name": "php-extended/php-root-cacert-bundle",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/php-extended/php-root-cacert-bundle.git",
+            "reference": "e800b1ae34461165ce2c9d013157871e462baf92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/php-extended%2Fphp-root-cacert-bundle/repository/archive.zip?sha=e800b1ae34461165ce2c9d013157871e462baf92",
+            "reference": "e800b1ae34461165ce2c9d013157871e462baf92",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-06-30T23:55:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpExtended\\RootCacert\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anastaszor",
+                "homepage": "https://gitlab.com/Anastaszor",
+                "role": "developer"
+            }
+        ],
+        "description": "A library to safely add the CA root certificates into your programmes ssl validations",
+        "homepage": "https://gitlab.com/php-extended/php-root-cacert-bundle",
+        "keywords": [
+            "ca",
+            "certificate",
+            "certification authority",
+            "curl",
+            "php",
+            "root",
+            "ssl",
+            "tls",
+            "validation"
+        ]
+    },
+    {
+        "name": "php-extended/php-mega-nz-api",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/php-extended/php-mega-nz-api.git",
+            "reference": "62988da0ae0336769341c8d5b28d70febddee8ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://gitlab.com/api/v4/projects/php-extended%2Fphp-mega-nz-api/repository/archive.zip?sha=62988da0ae0336769341c8d5b28d70febddee8ae",
+            "reference": "62988da0ae0336769341c8d5b28d70febddee8ae",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-mcrypt": "*",
+            "ext-openssl": "*",
+            "php": ">=5.3.0",
+            "php-extended/php-root-cacert-bundle": ">=1.0.0"
+        },
+        "time": "2018-06-06T20:03:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpExtended\\Mega\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anastaszor",
+                "homepage": "https://gitlab.com/Anastaszor",
+                "role": "Developer"
+            }
+        ],
+        "description": "A php API wrapper to connect to mega.nz API",
+        "homepage": "https://gitlab.com/php-extended/php-mega-nz-api",
+        "keywords": [
+            "api",
+            "client",
+            "mega",
+            "mega.co.nz",
+            "mega.nz",
+            "php",
+            "wrapper"
+        ]
+    },
+    {
+        "name": "skyzyx/mimetypes",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/skyzyx/mimetypes.git",
+            "reference": "bf8a41a13b187812fd9e71caaeee5c97ea4f0221"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/skyzyx/mimetypes/zipball/bf8a41a13b187812fd9e71caaeee5c97ea4f0221",
+            "reference": "bf8a41a13b187812fd9e71caaeee5c97ea4f0221",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "dflydev/apache-mime-types": "1.0.*@dev",
+            "twig/twig": "1.*"
+        },
+        "time": "2013-03-31T11:50:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Skyzyx\\Components\\Mimetypes": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ryan Parman",
+                "homepage": "http://ryanparman.com",
+                "role": "Vanity Developer"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "http://github.com/skyzyx/mimetypes/contributors"
+            }
+        ],
+        "description": "Creates a JSON document containing a thorough list of file extensions => mime types as provided by the Apache httpd project.",
+        "homepage": "http://github.com/skyzyx/mimetypes",
+        "keywords": [
+            "dictionary",
+            "map",
+            "mime",
+            "mimetype"
+        ]
+    },
+    {
+        "name": "apfelbox/php-file-download",
+        "version": "v2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apfelbox/PHP-File-Download.git",
+            "reference": "01b0461e02e7514ccb8804cee9260e0b61e04069"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/apfelbox/PHP-File-Download/zipball/01b0461e02e7514ccb8804cee9260e0b61e04069",
+            "reference": "01b0461e02e7514ccb8804cee9260e0b61e04069",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3",
+            "skyzyx/mimetypes": "~1.1"
+        },
+        "time": "2014-02-10T17:12:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Apfelbox\\FileDownload\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Jannik Zschiesche",
+                "email": "hello@apfelbox.net",
+                "homepage": "http://apfelbox.net"
+            }
+        ],
+        "description": "A library to help with creating downloads for files in PHP",
+        "homepage": "https://github.com/apfelbox/PHP-File-Download",
+        "keywords": [
+            "download"
+        ]
+    },
+    {
+        "name": "vlucas/phpdotenv",
+        "version": "v2.5.0",
+        "version_normalized": "2.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vlucas/phpdotenv.git",
+            "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
+            "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5.0"
+        },
+        "time": "2018-07-01T10:25:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dotenv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Vance Lucas",
+                "email": "vance@vancelucas.com",
+                "homepage": "http://www.vancelucas.com"
+            }
+        ],
+        "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+        "keywords": [
+            "dotenv",
+            "env",
+            "environment"
+        ]
+    }
+]
