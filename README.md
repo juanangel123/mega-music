@@ -1,4 +1,4 @@
-# Mega Music
+# Mega Sample
 
 You need to create a '.env' file containing this variables:
 
